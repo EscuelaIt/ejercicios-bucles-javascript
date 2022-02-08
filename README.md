@@ -15,3 +15,10 @@ Realizar con el bucle "for" todas estas repeticiones:
 - Construir la cadena del ejercicio anterior, pero colocando todos los números separados por un guión (2-4-6-8). Luego mostrar esa cadena.
 - Multiplicar por 7 un número creciente, comenzando por el 1, (1x7, 2x7, 3x7...) y mostrar el resultado de esa multiplicación. Parar cuando el valor valor de la multiplicación sea mayor que 1000.
 
+## Ejercicios While y do-while
+
+- Multiplicar un número por él mismo (el cuadrado) hasta que el resultado supere 349.
+- Generar un número aleatorio entre 0 y 10 hasta que el número sea mayor que 8. Mostrar los números generados en cada iteración.
+- Solicitar un dato al usuario (usando una caja prompt) hasta que el valor introducido sea un número.
+- Solicitar un dato al usuario hasta que sea una cadena de al menos 8 caracteres y que incluya al menos un número y una letra.
+- Solicitar un número al usuario. Si es un número entero mostrar de manera decreciente los números desde el introducido hasta el 1.

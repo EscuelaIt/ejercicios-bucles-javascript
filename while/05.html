@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ej 4</title>
+</head>
+<body>
+    
+    <script>
+        // Solicitar un número al usuario. 
+        // Si es un número entero mostrar de manera decreciente los números 
+        // desde el introducido hasta el 1.
+        function isInteger(input) {
+            if(isNaN(input)) {
+                return false;
+            }
+            var integerValue = parseInt(input);
+            if(integerValue == input) {
+                return true;
+            }
+            return false;
+        }
+
+        var input = prompt("Introduce un número entero");
+        if(isInteger(input)) {
+            console.log('Es un entero');
+            input = parseInt(input);
+            while(input >= 1) {
+                console.log(input);
+                input--;
+            }
+        } else {
+            console.log('No es un entero');
+        }
+
+    </script>
+</body>
+</html>
