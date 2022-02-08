@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ej1</title>
+</head>
+<body>
+    <p>
+        Solicitar un número de palabras al usuario, con una caja prompt, 
+        hasta que el usuario introduzca la cadena vacía. 
+        Mostrar luego esas palabras en la consola de Javascript.
+    </p>
+    
+    <script>
+        var palabras = [];
+        do {
+            var palabra = prompt('Dame una palabra, o la cadena vacía para salir.', '');
+            if(palabra != '') {
+                palabras.push(palabra);
+            }
+        } while(palabra != '')
+
+        for(var i = 0; i < palabras.length; i++) {
+            console.log(palabras[i]);
+        }
+    </script>
+</body>
+</html>
