@@ -1,5 +1,7 @@
 # Ejercicios de bucles en Javascript
 
+Estos ejercicios se han planteado como refuerzo en el [Curso de Programación desde cero](https://escuela.it/cursos/curso-programacion-desde-cero). Están todos resueltos en vídeo en las clases del curso. Las soluciones están organizadas en este mismo repositorio por carpetas.
+
 ## Ejercicios for básicos
 
 Realizar con el bucle "for" todas estas repeticiones:
